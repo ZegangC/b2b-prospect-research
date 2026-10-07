@@ -1,0 +1,50 @@
+[
+  {
+    "company_id": "DEMO-001",
+    "company_name": "Example Aurora Compounds (fictional)",
+    "country": "Example Market",
+    "entity_key": "aurora-compounds",
+    "status": "researched",
+    "scores": {"process_fit": 35, "purchase_potential": 15, "reachability": 10, "trade_capability": 15, "development_ease": 10},
+    "grade": "A",
+    "score_rationale": "Synthetic example: compounding activity is documented; purchasing volume remains an estimate.",
+    "evidence": [{"evidence_id": "E1", "url": "https://aurora.example/about", "checked_on": "2026-10-07", "confidence": "high", "claim": "Fictional source describes compounding and lists the company inbox."}],
+    "contacts": [{"scope": "company", "person_name": null, "email": "sales@aurora.example", "source_id": "E1", "attribution": "company_only", "delivery_status": "not_contacted"}]
+  },
+  {
+    "company_id": "DEMO-002",
+    "company_name": "Example Birch Materials (fictional)",
+    "country": "Example Market",
+    "entity_key": "birch-materials",
+    "status": "researched",
+    "scores": {"process_fit": 30, "purchase_potential": 10, "reachability": 10, "trade_capability": 10, "development_ease": 10},
+    "grade": "B",
+    "score_rationale": "Synthetic example: related processing evidence, with unverified demand and modest scale signals.",
+    "evidence": [{"evidence_id": "E2", "url": "https://birch.example/team", "checked_on": "2026-10-07", "confidence": "medium", "claim": "Fictional page explicitly assigns this work inbox to Demo Contact."}],
+    "contacts": [{"scope": "person", "person_name": "Demo Contact (fictional)", "email": "demo.contact@birch.example", "source_id": "E2", "attribution": "explicit_in_source", "delivery_status": "not_contacted"}]
+  },
+  {
+    "company_id": "DEMO-003",
+    "company_name": "Example Cedar Processing (fictional)",
+    "country": "Example Market",
+    "entity_key": "cedar-processing",
+    "status": "no_reliable_contact",
+    "scores": {"process_fit": 25, "purchase_potential": 10, "reachability": 0, "trade_capability": 10, "development_ease": 5},
+    "grade": "C",
+    "score_rationale": "Synthetic example: potential process fit but no reliable public contact; demand is unknown.",
+    "evidence": [{"evidence_id": "E3", "url": "https://cedar.example/products", "checked_on": "2026-10-07", "confidence": "medium", "claim": "Fictional product evidence, without a reliable contact route."}],
+    "contacts": []
+  },
+  {
+    "company_id": "DEMO-004",
+    "company_name": "Example Delta Retail (fictional)",
+    "country": "Example Market",
+    "entity_key": "delta-retail",
+    "status": "low_fit",
+    "scores": {"process_fit": 0, "purchase_potential": 0, "reachability": 5, "trade_capability": 10, "development_ease": 5},
+    "grade": "D",
+    "score_rationale": "Synthetic example: finished-product retail with no evidence of relevant manufacturing.",
+    "evidence": [{"evidence_id": "E4", "url": "https://delta.example/catalog", "checked_on": "2026-10-07", "confidence": "high", "claim": "Fictional catalog shows finished retail products only."}],
+    "contacts": []
+  }
+]

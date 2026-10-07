@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+outputs/
+private/
+backups/
+*.xlsx
+*.xls
+*.csv
+*.log
+*credentials*
+*token.json
+.DS_Store
+Thumbs.db
